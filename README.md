@@ -35,3 +35,5 @@ Google Maps API: For location integration.
 Project Goals:
 
 To create an engaging and informative online presence that drives reservations and provides essential information to potential diners, enhancing the overall customer experience.
+
+NOTE: THIS IS NOT AN OFFICIAL STEAKHOUSE WEBSITE.
