@@ -12,6 +12,8 @@ Home Page: Welcoming visitors with a high-resolution hero image and a brief intr
 
 Menu: Detailed listings of all appetizers, main courses, and beverages with descriptions.
 
+Responsive Design: Optimized for both desktop and mobile devices to ensure a seamless user experience.
+
 Technologies Used:
 
 HTML5 & CSS3: For structure and styling.
@@ -23,8 +25,6 @@ Menu: Detailed listings of all appetizers, main courses, and beverages with desc
 Reservations: An easy-to-use online reservation system integrated with a calendar.
 
 Location & Contact: Google Maps integration for directions and a contact form for inquiries.
-
-Responsive Design: Optimized for both desktop and mobile devices to ensure a seamless user experience.
 
 JavaScript: For interactive elements and form validation.
 
