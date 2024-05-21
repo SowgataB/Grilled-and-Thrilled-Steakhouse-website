@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    <title>Catering form</title>
+    <link rel="stylesheet" href="TO-GO.css">
+    </head>
+<body>
+    <div class="background">
+    <h1><img src="OG.jpeg" alt="logo"><br>Grilled and Thrilled Steakhouse Order TO-GO</h1>
+ 
+    <form action = "Catering.php" method="POST">
+        <fieldset>
+            <legend><p>Customer Informations</p></legend>
+            <p>Name: <input type ="text" name="name"></p>
+            <p>Phone #: <input type ="text" name="number"></p>
+            <p>Email: <input type ="text" name="email"></p>
+            <p>Date: <input type ="text" name="Date"></p>
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Pick-up Time</p></legend>
+            <p><label for="Pick-up time">Pick-up time:</label>
+            <input type="radio" id="5pm" value="5pm" name="Pick-up time">
+            <label for="5pm">5pm</label>
+            <input type="radio" id="6pm" value="6pm" name="Pick-up time">
+            <label for="6pm">6pm</label>
+            <input type="radio" id="7pm" value="7pm" name="Pick-up time">
+            <label for="7pm">7pm</label></p>
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Build Your Own (Dinner)</p></legend>
+            <p><label for="Choose">Choose One:</label>
+            <select id="Choose">
+                <option value="Churrasco Plate">Churrasco Plate | $19.00 | 280 Calories</option>               
+                <option value="Churrasco Feast">Churrasco Feast | $84.00 | 720 Calories</option></p>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Beef (Dinner)</p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Picanha | Top Sirloin</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Garlic Picanha | Top sirloin with garlic seasoning</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Spicy Picanha | Top sirloin with a fiery kick, perfect for spice lovers</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Flank Steak | Bottom sirloin</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Petite Filet | Tender and lean cut beef</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Filet Mignon | Most tender cut of beef</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Filet Mignon Wrapped in Bacon | Most tender cut of beef wrapped in bacon</label></p>            
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Sausage, Chicken, Lamb & Pork (Dinner)</p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Brazilian Sausage | A pork and beef mixture, mildly spicy and full of flavor</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Chicken Breast Wrapped in Bacon | Tender chicken breast wrapped in bacon</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Parmesan Drumettes | Drumettes marinated overnight with herbs and spices and dusted with Parmesan cheese</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Leg of Lamb | Grass fed, marinated overnight in lemon juice and fresh herbs</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Lamb Picanha |Grass fed lamb, top sirloin</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Lamb Chops | Marinated with lemon and pepper seasoned salt</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Barbecued Pork Ribs | Slow roasted pork ribs served with BBQ sauce</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Parmesan Pork Loin | Pork loin marinated and dusted with Parmesan cheese</label></p>
+                         
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Hot Items</p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Sautéed Mushrooms | White button mushrooms sautéed in red wine</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Potatoes Au Gratin | Sliced potatoes baked with Parmesan cheese, garlic, and butter</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Garlic Mashed Potatoes| Creamy mashed potatoes made with garlic butter</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Jasmine Rice| White jasmine rice</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Feijoada Black Beans |Black beans cooked with beef and garlic</label></p>                         
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Cold Items </p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">House Salad | $12.00 | 350 Calories | Romaine lettuce, cucumber, red onion, shredded carrots, cherry tomatoes, crispy bacon, croutons, Kalamata olives and your choice of dressing</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Caesar Salad | $10.00 | 530 Calories | Romaine lettuce, cherry tomatoes, shaved Grana Padano cheese, croutons and caesar dressing.</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Tabouleh | Bulgur, parsley, onions, tomatoes, mint, lemon juice, and olive oil</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Potato Salad | Yukon potatoes, mayonnaise, hearts of palm, and cornichon juice</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Couscous Salad | Large couscous pearls, scallions, and dried cranberries seasoned with lemon pepper</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Cucumber Salad | Crisp cucumbers, red onion, lemon juice, and seasoned salt</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Cabbage Salad | Cabbage, shredded carrots, fresh mint, cilantro, lemon juice</label> <br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Hearts of Palm | Authentic Brazilian vegetable harvested from the inner core of palm trees</label> <br>                         
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Sides</p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Dozen Brazilian Cheese Bread | $7.00 | 720 Calories | Twelve house-baked cheese breads</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Lobster Bisque (Dinner) | $10.00 | 720 Calories | Rich and creamy lobster bisque soup</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Large Fried Bananas | $6.00 | 720 Calories | Six fried bananas covered in cinnamon and sugar</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Half-Dozen Brazilian Cheese Bread | $3.50 | 360 Calories | Six house-baked cheese breads</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Small Fried Bananas | $3.00 | 360 Calories | Three bananas covered in cinnamon and sugar</label><br>                         
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Sauces & Dressings</p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Chimichurri | $2.00 | 160 Calories | A South American sauce that pairs well with grilled meats - diced parsley, cilantro, garlic, oregano, parsley, red crushed pepper, and vinegar and oil</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Farofa | $2.00 | 50 Calories | Brazilian side dish made with toasted cassava flour and seasonings; traditionally eaten with feijoada</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Balsamic Vinaigrette | $2.00 | 320 Calories | Made in-house with Italian balsamic vinegar</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Ranch Dressing | $2.00 | 200 Calories | Traditional ranch dressing</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Blue Cheese Dressing | $2.00 | 260 Calories | Buttermilk, mayonnaise, and blue cheese</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Caesar Dressing | $2.00 | 240 Calories | Traditional caesar dressing</label><br></p>                     
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Desserts </p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Carrot Cake | $13.00 | 1550 Calories | Three layers of moist carrot cake with a rich cream cheese icing</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Chocolate Mousse Cake | $12.00 | 1020 Calories | Layers of delectable chocolate cake</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Key Lime Pie | $11.00 | 630 Calories | A refreshing tart custard atop a graham cracker crust with lime juice laced whipped cream</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Bananas Foster Pie | $11.00 | 790 Calories | Fresh banana pie made of lady finger cake and a layer of fudge atop a graham cracker crust</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Coconut Chess Pie | $11.00 | 420 Calories | A southern style pie topped with fresh toasted coconut flakes</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Pecan Pie | $11.00 | 540 Calories | A southern style pie made with glazed pecans atop a rich layer of custard</label><br></p>                     
+        </fieldset>
+
+        <fieldset>
+            <legend><p>Beverages </p></legend>
+            <p><input type="checkbox" id="Choose">
+                <label for="Choose">Guaraná Antarctica | $4.75 | 140 Calories | Guaraná Antarctica is a Brazilian soft drink with a unique flavor, made from a fruit from the Amazon Rainforest, 12 fl oz Can</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Coca-Cola | $2.50 | 140 Calories | Coca-Cola, Original Taste, 12 fl oz Can</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Sprite | $2.50 | 90 Calories | Sprite, Lemon Lime Soda, 12 fl oz Can</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Diet Coke | $2.50 | 0 Calories | Diet Coke, 12 fl oz Can</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Saratoga Still Water | $8.00 | 0 Calories | Still natural spring water, 28 fl oz</label><br>
+                <input type="checkbox" id="Choose">
+                <label for="Choose">Saratoga Sparkling Water | $8.00 | 0 Calories | Sparkling natural spring water, 28 fl oz</label><br></p>                     
+        </fieldset>
+    
+    <h3>**Menu selection may vary by location. Serving sizes are suggestions, and could vary depending on the individual. Texas de Brazil reserves the right to change menu & price without prior notice. <br>
+
+        If you have a food allergy, please notify us. Nutrition and allergy information can be found at menu section.<br>
+        
+        2,000 calories a day is used for general nutrition advice for an individual, but calorie needs vary.<br>
+        
+        Consuming raw or undercooked meats, poultry, seafood, shellfish or eggs may increase your risk of foodborne illness.**</h3>
+        
+
+    <input type="submit" value="Order Now">
+    <input type="RESET">
+
+    <footer>
+        <small>Copyright &copy; 2024; Designed by SOWGATA BARUA </small>
+    </footer>
+
+    </form>
+</div>
+</body>
+
+</html>

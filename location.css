@@ -1,0 +1,21 @@
+.nav{
+    color: blue;
+    overflow: hidden;
+    font-family: cursive;
+    font-size:25px;
+    font-weight: bold;
+    text-align:center;
+    margin-top: -5;
+    }
+    .nav a{
+    float: center;
+    color:#000000;
+    padding: 20px 16px;
+    width: 100px;
+    text-transform:uppercase;
+    }
+    .nav a:hover{
+    background:orangered;
+    color: #fff;
+    }
+    
